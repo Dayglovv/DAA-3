@@ -1,0 +1,22 @@
+algorithm,graph_type,size,V,E,run1_ns,run2_ns,run3_ns,run4_ns,run5_ns,avg_ns,operations
+Kruskal,undirected connected,Small,10,30,21571,1770,1307,776,644,5213.6,139
+Prim,undirected connected,Small,10,30,10916,2020,1152,880,870,3167.6,60
+Dijkstra,undirected connected,Small,10,30,9495,1728,1023,699,732,2735.4,78
+SCC (Kosaraju),random directed,Small,10,30,13870,2237,1034,939,953,3806.6,80
+SCC (Kosaraju),DAG,Small,10,30,16195,1848,1087,1073,869,4214.4,80
+TopoSort (Kahn),DAG,Small,10,30,6126,523,384,381,380,1558.8,80
+TopoSort (Kahn),directed with cycle,Small,10,30,4945,259,151,156,127,1127.6,30
+Kruskal,undirected connected,Medium,100,500,112635,42831,25237,19860,17815,43675.6,4199
+Prim,undirected connected,Medium,100,500,71457,45799,38354,28809,26017,42087.2,1000
+Dijkstra,undirected connected,Medium,100,500,74151,30179,22915,18292,12959,31699.2,1203
+SCC (Kosaraju),random directed,Medium,100,500,37427,22040,48267,15472,16116,27864.4,1200
+SCC (Kosaraju),DAG,Medium,100,500,30827,15891,14353,13101,13108,17456.0,1200
+TopoSort (Kahn),DAG,Medium,100,500,11929,4648,4183,3962,4001,5744.6,1200
+TopoSort (Kahn),directed with cycle,Medium,100,500,6332,878,753,696,707,1873.2,500
+Kruskal,undirected connected,Large,1000,5000,570834,512889,510812,512725,511435,523739.0,56936
+Prim,undirected connected,Large,1000,5000,746582,741548,729992,840498,708986,753521.2,10000
+Dijkstra,undirected connected,Large,1000,5000,378151,341943,350022,359156,329476,351749.6,11933
+SCC (Kosaraju),random directed,Large,1000,5000,266142,220910,213354,188491,184920,214763.4,12000
+SCC (Kosaraju),DAG,Large,1000,5000,186506,198860,162700,152957,152695,170743.6,12000
+TopoSort (Kahn),DAG,Large,1000,5000,79149,55780,51468,49901,49126,57084.8,12000
+TopoSort (Kahn),directed with cycle,Large,1000,5000,15246,8247,7494,7644,7585,9243.2,5000
