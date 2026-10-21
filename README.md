@@ -210,7 +210,7 @@ The exact times depend on the computer, the numbers below are from my run:
 
 **Execution time vs. number of vertices**
 
-![Execution time vs. number of vertices](../../../OneDrive/OOP/DAA-3/daa3/results/plots/time_vs_vertices.png)
+![Execution time vs. number of vertices](https://github.com/Dayglovv/DAA-3/blob/main/daa3/results/plots/time_vs_edges.png?raw=true)
 
 **Execution time vs. number of edges**
 
