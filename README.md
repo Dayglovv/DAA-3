@@ -214,7 +214,7 @@ The exact times depend on the computer, the numbers below are from my run:
 
 **Execution time vs. number of edges**
 
-![Execution time vs. number of edges](../../../OneDrive/OOP/DAA-3/daa3/results/tables/time_vs_edges.png)
+![Execution time vs. number of edges](https://github.com/Dayglovv/DAA-3/blob/main/daa3/results/plots/time_vs_vertices.png?raw=true)
 
 Both axes are logarithmic. In my experiment `V` and `E` grow together (E = 3V for Small, 5V for Medium and Large), so the two
 plots have a very similar shape and it is not possible to see the influence of `V` and `E` separately — the plots would need graphs with
